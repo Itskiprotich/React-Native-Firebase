@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "69517934384",
+    "project_id": "react-native-f7448",
+    "storage_bucket": "react-native-f7448.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69517934384:android:66b36f9cd5de16335612f5",
+        "android_client_info": {
+          "package_name": "com.firebase_images_upload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69517934384-8p938prqcvl94inlsucac0e06kh6svmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPT3rGwyHnMZq8QnarvEeQw4mLpxxUUEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69517934384-8p938prqcvl94inlsucac0e06kh6svmo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
