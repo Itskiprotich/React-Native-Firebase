@@ -6,8 +6,15 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#bbded6',
     },
+    vertical: {
+        marginTop: 15,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignContent: 'space-between'
+    },
     selectButton: {
         borderRadius: 5,
+        marginTop: 20,
         width: 150,
         height: 50,
         backgroundColor: '#8ac6d1',

@@ -88,9 +88,6 @@ export default function UploadScreen() {
   };
   return (
     <SafeAreaView style={styles.container}>
-      <TouchableOpacity style={styles.selectButton} onPress={selectImage}>
-        <Text style={styles.buttonText}>Pick an image</Text>
-      </TouchableOpacity>
       <View style={styles.imageContainer}>
         {image !== null ? (
           // @ts-ignore
@@ -101,9 +98,14 @@ export default function UploadScreen() {
             <Progress.Bar progress={transferred} width={300} />
           </View>
         ) : (
-          <TouchableOpacity style={styles.uploadButton} onPress={uploadImage}>
-            <Text style={styles.buttonText}>Upload image</Text>
-          </TouchableOpacity>
+          <View style={styles.vertical}>
+            <TouchableOpacity style={styles.selectButton} onPress={selectImage}>
+              <Text style={styles.buttonText}>Pick an image</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.uploadButton} onPress={uploadImage}>
+              <Text style={styles.buttonText}>Upload image</Text>
+            </TouchableOpacity>
+          </View>
         )}
       </View>
     </SafeAreaView>
